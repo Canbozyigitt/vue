@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Vue.js denemesi</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+</head>
+<body>
+    <div id="app-one">
+        <h1>{{hesapla()}}</h1>
+        <h1>{{isim()}}</h1>
+        <p>Wesbite: <a v-bind:href="website">Benim websitem</a></p>
+        <input type="text" :value="name">
+        <p>yaşım:{{age}}</p>
+        <button v-on:click="ekle">Yaşımı arttır</button>
+        <button v-on:click="cikar">Yaşımı azalt</button>
+        <button v-on:click="a++">a ya 1 ekle </button>
+        <button v-on:click="b++">b ye 1 ekle </button>
+        <p>A:{{a}}</p>
+        <p>B:{{b}}</p>
+        <p>Yaş + a:{{aYaEkle}}</p>
+        <p>Yaş + b:{{bYeEkle}}</p>
+
+        <p>{{title}}</p>
+        <h1>{{greet}}</h1>
+       
+
+    </div>
+    <div id="app-two">
+        <p>{{title}}</p>
+        <h1>{{greet}}</h1>
+        <button v-on:click="changetitle">App 1 in başlığını değiştir</button>
+
+    </div>
+    
+</body>
+<script src="app.js"></script>
+</html>
