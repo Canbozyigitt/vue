@@ -3,7 +3,7 @@ const {createApp}=Vue
     data(){
         return{
             name:"can",
-            a:2,
+            a:3,
             b:3,
             website:"http://youtube.com",
             age:25,
