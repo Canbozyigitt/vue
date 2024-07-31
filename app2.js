@@ -15,7 +15,7 @@ one.component("eleman", {
     },
     methods: {
         changeName() {
-            this.name = "bihter ziyagil";
+            this.name = "Bihter ziyagil";
         }
     }
 });
