@@ -11,7 +11,7 @@ const {createApp}=Vue
             ozellikler:[
                 {name:"Adnan", age:25},
                 {name:"Bihter", age:26},
-                {name:"Matmazel", age:37}
+                {name:"Matmazel", age:38}
         
 
             ],
