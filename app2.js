@@ -32,7 +32,7 @@ two.component("eleman", {
     template: '<p>Ben eleman tagının içerisiyim. Benim adım {{ name }}</p><button v-on:click="changeName">isim değiştir</button>',
     data() {
         return {
-            name: "adnan ziyagil"
+            name: "Adnan ziyagil"
         };
     },
     methods: {
